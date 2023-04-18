@@ -1,0 +1,50 @@
+
+.imagem {
+    padding-left: 250px;
+    width: 225px;
+    height: 225px;
+    left: 68px;
+    top: 221px;
+
+}
+.bnt {
+    padding: 10px;
+    background: #B28037;
+    width: 125px;
+    color: #000000;
+    border-radius: 100px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    left: 40%;
+    position: absolute;
+   
+}
+.bnt:hover{
+    background: #ff9900;
+    transition: background 1s; 
+
+}
+.bnt2 {
+    padding: 10px 8px;
+    background: #ffffff;
+    width: 125px;
+    color: #000000;
+    border-radius: 100px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    position: absolute;
+    left: 40%;
+}
+.bnt2:hover{
+    background: #b6ab9b;
+    transition: background 1s; 
+
+}
+
+
+
+
+
+
