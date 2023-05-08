@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="imagem/download-removebg-preview 1.png">
     <link rel="stylesheet" href="login.css" >
     <title>Login</title>
 </head>
 <body>
+ 
+
     
     <div id="login">
         
@@ -26,23 +29,31 @@
 
                     <label for="usuario">Usuário</label>
 
-                    <input type="text" id="usuario" autocomplete="off">
+                    <input type="text" id="nomes" autocomplete="off">
 
                 </div>
+
+            
 
                 <div class="card-content-area">
 
                     <label for="password">Senha</label>
 
-                    <input type="password" id="password" autocomplete="off">
+                    <input type="password" id="senha" autocomplete="on">
 
                 </div>
 
+               
             </div>
 
             <div class="card-footer">
-
-                <input type="submit" value="Login" class="submit">
+                
+                <a href="/acesso.html">    
+                <button type="submit" onclick="logar()" value="Entrar" class="submit">
+                
+                </a>
+                Entrar
+                </button>
 
                 <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
 
